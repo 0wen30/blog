@@ -5,14 +5,13 @@ class BD extends Conexion{
 	static public $conexion;
 
 	private static function conectar(){
-		self::$conexion = new Conexion("localhost","root","santos","blog");
-		/*
+		//self::$conexion = new Conexion("localhost","root","santos","blog");
 		self::$conexion = new Conexion(
 			"x8autxobia7sgh74.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
 			"zo1w3nepkh8x65p6",
 			"e4lozg0p67ffn9nq",
 			"qztw2qpta7uh9g0p"
-		);*/
+		);
 		
 	}
 
