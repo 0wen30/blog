@@ -36,6 +36,8 @@ if (isset($_GET['usuario']) && isset($_GET['clave'])){
 	    echo 'El nombre de usuario solo admite texto de la Aa-Zz';
 	}else if(BD::nuevo_usuario($us,$cl)){
 		header("Refresh:0");
+	}else{
+		echo 'El nombre de usuario ya esta registrado';
 	}
 }
 
